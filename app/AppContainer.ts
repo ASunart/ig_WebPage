@@ -74,17 +74,17 @@ class AppContainer extends HTMLElement{
             this.menu.forEach((menu)=>{
                 this.shadowRoot?.appendChild(menu);
             });
-            this.profiles.forEach((profile)=>{
-                this.shadowRoot?.appendChild(profile);
-            });
-            this.suggestions.forEach((suggest)=>{
-                this.shadowRoot?.appendChild(suggest);
-            });
             this.stories.forEach((story)=>{
                 this.shadowRoot?.appendChild(story);
             });
             this.profswitch.forEach((prof)=>{
                 this.shadowRoot?.appendChild(prof);
+            });
+            this.suggestions.forEach((suggest)=>{
+                this.shadowRoot?.appendChild(suggest);
+            });
+            this.profiles.forEach((profile)=>{
+                this.shadowRoot?.appendChild(profile);
             });
         }
     }

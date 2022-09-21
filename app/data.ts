@@ -94,9 +94,6 @@ const data: DataShape[] = [
     status: "Followed by notchrismartin +2 more"
    },
    
-   
-   
-  
 ];
 
 export default data;

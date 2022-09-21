@@ -64,14 +64,6 @@ class AppContainer extends HTMLElement {
                 var _a;
                 (_a = this.shadowRoot) === null || _a === void 0 ? void 0 : _a.appendChild(menu);
             });
-            this.profiles.forEach((profile) => {
-                var _a;
-                (_a = this.shadowRoot) === null || _a === void 0 ? void 0 : _a.appendChild(profile);
-            });
-            this.suggestions.forEach((suggest) => {
-                var _a;
-                (_a = this.shadowRoot) === null || _a === void 0 ? void 0 : _a.appendChild(suggest);
-            });
             this.stories.forEach((story) => {
                 var _a;
                 (_a = this.shadowRoot) === null || _a === void 0 ? void 0 : _a.appendChild(story);
@@ -79,6 +71,14 @@ class AppContainer extends HTMLElement {
             this.profswitch.forEach((prof) => {
                 var _a;
                 (_a = this.shadowRoot) === null || _a === void 0 ? void 0 : _a.appendChild(prof);
+            });
+            this.suggestions.forEach((suggest) => {
+                var _a;
+                (_a = this.shadowRoot) === null || _a === void 0 ? void 0 : _a.appendChild(suggest);
+            });
+            this.profiles.forEach((profile) => {
+                var _a;
+                (_a = this.shadowRoot) === null || _a === void 0 ? void 0 : _a.appendChild(profile);
             });
         }
     }
